@@ -1,0 +1,158 @@
+/* Reset and body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+}
+
+.text-logo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #ff7f50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #ff4500;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Process Section */
+#process {
+    padding: 60px 20px;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Contact Form */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    padding: 15px;
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background-color: #00f2fe;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #333;
+    /* Dark background for contrast */
+    color: #fff;
+    /* White text */
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer a {
+    color: #ff7f50;
+    /* CTA / link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #ffa07a;
+    /* Lighter shade on hover */
+    text-decoration: underline;
+}
