@@ -14,8 +14,9 @@ form.addEventListener('submit', function (e) {
     msg += `Problem: ${problem}`;
 
     // USA WhatsApp number
-    const waNumber = "12025550123"; // replace with your number
+    const waNumber = "17865353590"; // replace with your number
     const url = `https://wa.me/${waNumber}?text=${msg}`;
 
     window.open(url, "_blank");
 });
+
